@@ -1,6 +1,4 @@
-# [Plataforma de Jogos de Geolocalização para Treino em OSINT
-<img width="281" height="261" alt="image" src="https://github.com/user-attachments/assets/93c2701c-32b2-434e-8fe7-7e9caa211266" />
-]
+# [Plataforma de Jogos de Geolocalização para Treino em OSINT]
 
 > Subtítulo ou tagline curta — o problema que resolve e para quem.
 
