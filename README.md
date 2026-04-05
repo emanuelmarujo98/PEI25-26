@@ -2,7 +2,7 @@
 
 > Subtítulo ou tagline curta — o problema que resolve e para quem.
 
-**Estudante:** [Nome] · [Número]  
+**Estudante:** Emanuel Marujo · 2400970
 **Orientador:** Pedro Pestana  
 **UC:** Projecto de Engenharia Informática · Universidade Aberta · 2025/26  
 **Repositório:** [URL deste repositório]
