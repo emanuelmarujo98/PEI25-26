@@ -1,9 +1,9 @@
 # Proposta de Projecto
 
-**Título:** [Título do projecto]  
-**Estudante:** [Nome] · [Número]  
+**Título:** Plataforma de Jogos de Geolocalização para Treino em OSINT   
+**Estudante:** Emanuel Marujo · 2400970  
 **Orientador:** Pedro Pestana  
-**Data:** [Data de submissão]  
+**Data:** 25/03/2026  
 **Versão:** 1.0
 
 ---
@@ -16,11 +16,20 @@
 <!-- §3: O resultado esperado e como se verifica que foi atingido. -->
 <!-- A sinopse deve ser legível por alguém sem formação técnica. -->
 
-[Parágrafo 1 — o problema]
-
-[Parágrafo 2 — a solução]
-
-[Parágrafo 3 — o resultado esperado e verificação]
+A capacidade de identificar locais a partir de imagens, padrões urbanos ou 
+características geográficas é uma competência relevante em contextos de OSINT 
+e análise digital. Jogos de geolocalização demonstram o potencial pedagógico 
+deste tipo de desafio, mas raramente exploram variações estruturadas orientadas 
+para treino específico. 
+Neste projeto proponho o desenvolvimento de uma plataforma web interativa de 
+treino de geolocalização. Ao utilizador será apresentada uma imagem na qual 
+deverá ser identificada a localização no mapa, em caso de erro a plataforma irá 
+apresentar pistas de forma a ajudar e melhorar o treino. 
+Este sistema difere de sistemas já existentes no que toca à aprendizagem que será 
+o seu maior foco, ao contrário da grande maioria em que o ponto principal é 
+funcionar como um jogo e não um sistema de aprendizagem. O sucesso será 
+verificado através da implementação de um MVP funcional, onde o utilizador 
+completa os vários desafios e recebe um feedback educativo. 
 
 ---
 
@@ -32,21 +41,41 @@
 <!-- Exemplo de critério forte: "dado email e password válidos, o sistema autentica e redirige para o dashboard -->
 <!--   em menos de 2 segundos; dado email inválido, apresenta mensagem de erro sem expor informação de sistema." -->
 
-### Funcionalidade 1 — [Nome]
+### Funcionalidade 1 — Inicio do desafio
+
+**Critério de aceitação:**  
+Dada a ordem para iniciar uma nova ronda o Sistema apresenta uma imagem em menos de 2 segundos
+
+### Funcionalidade 2 — Interação com o mapa
+
+**Critério de aceitação:**  
+Dado o clique no mapa o sistema apresenta um marcador e regista as coordenadas
+
+### Funcionalidade 3 — Cálculo da distância
 
 **Critério de aceitação:**  
 [Descrição observável e verificável]
 
-### Funcionalidade 2 — [Nome]
+### Funcionalidade 4 — Feedback
 
 **Critério de aceitação:**  
-[Descrição observável e verificável]
+ Se a distância for superior a 100 km, o Sistema apresenta pelo menos 1 pista
 
-### Funcionalidade 3 — [Nome]
+### Funcionalidade 5 — Visualização da resposta
 
 **Critério de aceitação:**  
-[Descrição observável e verificável]
+Após a segunda tentativa de resposta, o Sistema apresenta distância e o ponto correto no mapa
 
+### Funcionalidade 6 — Registo do desempenho do utilizador
+
+**Critério de aceitação:**  
+ Após a ronda, o sistema armazena o resultado na base de dados e permite a consulta do histórico numa nova sessão
+
+ ### Funcionalidade 7 — Voltar a jogar
+
+**Critério de aceitação:**  
+  Ao clicar no botão “Jogar de novo”, o Sistema apresenta uma imagem em menos de 2 segundos.
+  
 <!-- Adicionar funcionalidades conforme necessário -->
 
 ---
@@ -58,11 +87,10 @@
 
 | Componente | Tecnologia escolhida | Justificação |
 |-----------|---------------------|-------------|
-| Frontend | [ex: React 18] | [porquê esta e não outra] |
-| Backend | [ex: FastAPI] | [porquê esta e não outra] |
-| Base de dados | [ex: PostgreSQL] | [porquê esta e não outra] |
-| Hosting/Deploy | [ex: Railway] | [porquê esta e não outra] |
-| Autenticação | [ex: JWT] | [porquê esta e não outra] |
+| Frontend | React |  por tornar este projeto mais escalável  |
+| Backend | Node.js + Express | [porquê esta e não outra] |
+| Base de dados | SQLite | permite uma persistência de dados e evita uma grande complexidade |
+| Autenticação | Node.js + SQLite | Esta abordagem foi escolhida por garantir simplicidade e controlo total sobre os dados|
 
 ---
 
@@ -93,13 +121,38 @@
 | Semanas | Datas | Conteúdo planeado | Marco |
 |---------|-------|------------------|-------|
 | Sem. 1–2 | 17–28 mar | Proposta. Configuração do repositório. | **Proposta (25 mar)** |
-| Sem. 3–4 | 31 mar–11 abr | [o que está planeado] | |
-| Sem. 5–6 | 14–25 abr | [o que está planeado] | |
-| Sem. 7 | 28 abr–2 mai | [o que está planeado] | **Demo interna** |
-| Sem. 8 | 5–6 mai | [o que está planeado] | **Intercalar (6 mai)** |
-| Sem. 9–10 | 7–16 mai | [o que está planeado] | |
-| Sem. 11–12 | 19–30 mai | [o que está planeado] | |
-| Sem. 13 | 2–6 jun | [o que está planeado] | |
-| Sem. 14 | 9–13 jun | [o que está planeado] | |
-| Sem. 15 | 16–20 jun | [o que está planeado] | **Prep. defesa** |
+| Sem. 3–4 | 31 mar–11 abr | Levantamento de requisitos (MoSCoW): 
+• Must: imagem + mapa + distância + dicas  
+• Should: sistema de rondas  
+• Could: melhorias visuais 
+Definição da arquitetura (C4 nível 1 e 2) 
+Criação do repositório GitHub com estrutura inicial | |
+| Sem. 5–6 | 14–25 abr |  Wireframes da interface (página principal + mapa + resultado)  
+ Definição das decisões técnicas principais (ADRs)  
+ Início da implementação:  
+• Estrutura base da aplicação  
+• Apresentação de imagem  
+• Layout inicial  | |
+| Sem. 7 | 28 abr–2 mai | Estado funcional inicial do sistema  
+ Implementação parcial da lógica (ex: carregamento de imagem)  | **Demo interna** |
+| Sem. 8 | 5–6 mai |  Relatório intercalar: Capítulos 1 (Introdução) e 2 (Desenho) completos.  
+Estado de implementação documentado no Cap. 3.   | **Intercalar (6 mai)** |
+| Sem. 9–10 | 7–16 mai | Implementação do núcleo do sistema:  
+• Interação com mapa (clique)  
+• Registo de coordenadas  
+• Cálculo de distância  
+Início dos testes ao núcleo  
+Identificação de limitações | |
+| Sem. 11–12 | 19–30 mai |Implementação completa do MVP.  
+Testes de funcionalidade e desempenho.  
+Capturas de ecrã e exemplos de execução para Cap. 4.  | |
+| Sem. 13 | 2–6 jun | Revisão geral do sistema  
+ Melhorias de interface (UI)  
+Validação dos critérios de aceitação definidos no MVP | |
+| Sem. 14 | 9–13 jun | Redação do Cap. 4 (Testes) e Cap. 5 (Conclusões).  
+Revisão bibliográfica e formatação APA.  
+Preparação dos anexos.   | |
+| Sem. 15 | 16–20 jun | Reunião de preparação para defesa com orientador (síncrono).  
+Ensaio de perguntas de júri.  
+Revisão final do relatório e verificação de coerência com o repositório.  | **Prep. defesa** |
 | Sem. 16 | 24 jun | Submissão do relatório final. | **Final (24 jun)** |
