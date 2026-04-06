@@ -43,7 +43,7 @@ treino de geolocalização
 <!-- Instruções que funcionam numa máquina limpa. Se não funcionar na demo, não conta como feito. -->
 
 ### Pré-requisitos
-
+Ainda por definir
 ```
 [ex: Node.js 20+, Python 3.11+, Docker, etc.]
 ```
@@ -83,8 +83,7 @@ Ainda por definir
 | Decisão | Alternativa considerada | Razão da escolha |
 |---------|------------------------|-----------------|
 | SQLite | JSON | Optei por SQLite para que seja possivel a persistência de dados |
-|  React | JavaScript | React foi a tecnologia escolhida por tornar este projeto mais 
-escalável |
+|  React | JavaScript | React foi a tecnologia escolhida por tornar este projeto mais escalável |
 
 ---
 
