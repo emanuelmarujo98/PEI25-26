@@ -1,11 +1,12 @@
-# [Plataforma de Jogos de Geolocalização para Treino em OSINT]
+# Plataforma de Jogos de Geolocalização para Treino em OSINT
 
-> Subtítulo ou tagline curta — o problema que resolve e para quem.
+ Neste projeto proponho o desenvolvimento de uma plataforma web interativa de 
+treino de geolocalização
 
 **Estudante:** Emanuel Marujo · 2400970
 **Orientador:** Pedro Pestana  
 **UC:** Projecto de Engenharia Informática · Universidade Aberta · 2025/26  
-**Repositório:** [URL deste repositório]
+**Repositório:** https://github.com/emanuelmarujo98/PEI25-26
 
 ---
 
@@ -24,18 +25,16 @@
 <!-- Lista das funcionalidades do MVP que estão funcionais. -->
 <!-- Ser específico: não "o login está feito" mas "autenticação por email/password com JWT, sessão persistente em localStorage." -->
 
-- [ ] Funcionalidade A — [descrição breve]
-- [ ] Funcionalidade B — [descrição breve]
-- [ ] Funcionalidade C — [descrição breve]
-
+- [x] Proposta para projeto — Aprovada
+- [x] MVP, sinopse e arquiteturas do projeto definidas
 ---
 
 ## O que está pendente
 
-<!-- O que falta do MVP e porquê. Se algo foi descontinuado, explicar a decisão. -->
 
-- [ ] Funcionalidade D — [estado e razão do atraso se aplicável]
-- [ ] Funcionalidade E — [estado]
+- [ ] Criação de um dataset local como fonte de imagens
+- [ ] Desenvolvimento do Frontend em React
+- [ ] Implementação de base de dados em SQLite para persistencia de dados
 
 ---
 
@@ -50,6 +49,7 @@
 ```
 
 ### Instalação
+Ainda por definir
 
 ```bash
 # 1. Clonar o repositório
@@ -68,7 +68,7 @@ cp .env.example .env
 ```
 
 ### Acesso
-
+Ainda por definir
 ```
 [ex: http://localhost:3000]
 [Credenciais de teste se aplicável]
@@ -82,8 +82,9 @@ cp .env.example .env
 
 | Decisão | Alternativa considerada | Razão da escolha |
 |---------|------------------------|-----------------|
-| [ex: PostgreSQL] | [ex: MongoDB] | [ex: dados relacionais com integridade referencial necessária] |
-| [ex: React] | [ex: Vue] | [ex: maior familiaridade da equipa, ecossistema] |
+| SQLite | JSON | Optei por SQLite para que seja possivel a persistência de dados |
+|  React | JavaScript | React foi a tecnologia escolhida por tornar este projeto mais 
+escalável |
 
 ---
 
@@ -103,9 +104,8 @@ cp .env.example .env
 
 | Ferramenta | Para que foi usada |
 |-----------|-------------------|
-| [ex: GitHub Copilot] | [ex: autocompletar código boilerplate] |
-| [ex: Claude] | [ex: explorar alternativas de arquitectura] |
+| ChatGPT | Ajuda na escolha de arquitetura do projeto |
 
 ---
 
-*Última actualização: [data] · [semana do semestre, ex: Sem. 7]*
+*Última actualização: 06/04/26 ·  Sem. 4*
