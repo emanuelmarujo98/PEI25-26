@@ -4,6 +4,7 @@
 treino de geolocalização
 
 **Estudante:** Emanuel Marujo · 2400970
+
 **Orientador:** Pedro Pestana  
 **UC:** Projecto de Engenharia Informática · Universidade Aberta · 2025/26  
 **Repositório:** https://github.com/emanuelmarujo98/PEI25-26
