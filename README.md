@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Plataforma de Jogos de Geolocalização para Treino em OSINT
 
  Neste projeto proponho o desenvolvimento de uma plataforma web interativa de 
@@ -108,3 +109,4 @@ Ainda por definir
 ---
 
 *Última actualização: 06/04/26 ·  Sem. 4*
+
