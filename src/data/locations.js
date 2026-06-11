@@ -278,6 +278,216 @@ const locations = [
         "Capital grega",
         "Atenas"
     ]
+},
+{
+    id: 21,
+    name: "Mont Saint-Michel",
+    country: "França",
+    city: "Normandia",
+    lat: 48.6361,
+    lng: -1.5115,
+    image: "/images/mont-saint-michel.jpg",
+    hints: [
+        "Ilha ligada por uma ponte",
+        "Normandia",
+        "França"
+    ]
+},
+{
+    id: 22,
+    name: "Hallgrímskirkja",
+    country: "Islândia",
+    city: "Reiquiavique",
+    lat: 64.1417,
+    lng: -21.9266,
+    image: "/images/hallgrimskirkja.jpg",
+    hints: [
+        "Igreja moderna muito alta",
+        "Capital de uma ilha vulcânica",
+        "Reiquiavique"
+    ]
+},
+{
+    id: 23,
+    name: "Ponte Carlos",
+    country: "República Checa",
+    city: "Praga",
+    lat: 50.0865,
+    lng: 14.4114,
+    image: "/images/charles-bridge.jpg",
+    hints: [
+        "Ponte medieval",
+        "Cruza o rio Moldava",
+        "Praga"
+    ]
+},
+{
+    id: 24,
+    name: "Palácio de Schönbrunn",
+    country: "Áustria",
+    city: "Viena",
+    lat: 48.1845,
+    lng: 16.3122,
+    image: "/images/schonbrunn.jpg",
+    hints: [
+        "Residência imperial",
+        "Capital austríaca",
+        "Viena"
+    ]
+},
+{
+    id: 25,
+    name: "Atomium",
+    country: "Bélgica",
+    city: "Bruxelas",
+    lat: 50.8949,
+    lng: 4.3415,
+    image: "/images/atomium.jpg",
+    hints: [
+        "Estrutura metálica gigante",
+        "Representa um cristal ampliado",
+        "Bruxelas"
+    ]
+},
+{
+    id: 26,
+    name: "Castelo de Neuschwanstein",
+    country: "Alemanha",
+    city: "Schwangau",
+    lat: 47.5576,
+    lng: 10.7498,
+    image: "/images/neuschwanstein.jpg",
+    hints: [
+        "Inspirou castelos da Disney",
+        "Baviera",
+        "Alemanha"
+    ]
+},
+{
+    id: 27,
+    name: "Blue Mosque",
+    country: "Turquia",
+    city: "Istambul",
+    lat: 41.0054,
+    lng: 28.9768,
+    image: "/images/blue-mosque.jpg",
+    hints: [
+        "Mesquita muito famosa",
+        "Cidade entre dois continentes",
+        "Istambul"
+    ]
+},
+{
+    id: 28,
+    name: "Petronas Towers",
+    country: "Malásia",
+    city: "Kuala Lumpur",
+    lat: 3.1579,
+    lng: 101.7116,
+    image: "/images/petronas.jpg",
+    hints: [
+        "Torres gémeas",
+        "Sudeste Asiático",
+        "Kuala Lumpur"
+    ]
+},
+{
+    id: 29,
+    name: "Marina Bay Sands",
+    country: "Singapura",
+    city: "Singapura",
+    lat: 1.2834,
+    lng: 103.8607,
+    image: "/images/marina-bay.jpg",
+    hints: [
+        "Hotel com piscina no topo",
+        "Cidade-estado asiática",
+        "Singapura"
+    ]
+},
+{
+    id: 30,
+    name: "Stonehenge",
+    country: "Reino Unido",
+    city: "Wiltshire",
+    lat: 51.1789,
+    lng: -1.8262,
+    image: "/images/stonehenge.jpg",
+    hints: [
+        "Monumento pré-histórico",
+        "Conjunto de pedras gigantes",
+        "Sul de Inglaterra"
+    ]
+},
+{
+    id: 31,
+    name: "Chichén Itzá",
+    country: "México",
+    city: "Yucatán",
+    lat: 20.6843,
+    lng: -88.5678,
+    image: "/images/chichen-itza.jpg",
+    hints: [
+        "Civilização Maia",
+        "Península de Yucatán",
+        "México"
+    ]
+},
+{
+    id: 32,
+    name: "Moai de Rano Raraku",
+    country: "Chile",
+    city: "Ilha da Páscoa",
+    lat: -27.1212,
+    lng: -109.2886,
+    image: "/images/moai.jpg",
+    hints: [
+        "Estátuas gigantes de pedra",
+        "Ilha remota do Pacífico",
+        "Ilha da Páscoa"
+    ]
+},
+{
+    id: 33,
+    name: "Mosteiro de Meteora",
+    country: "Grécia",
+    city: "Kalambaka",
+    lat: 39.7217,
+    lng: 21.6300,
+    image: "/images/meteora.jpg",
+    hints: [
+        "Mosteiros sobre rochas",
+        "Património Mundial",
+        "Grécia"
+    ]
+},
+{
+    id: 34,
+    name: "Bled Castle",
+    country: "Eslovénia",
+    city: "Bled",
+    lat: 46.3690,
+    lng: 14.1005,
+    image: "/images/bled.jpg",
+    hints: [
+        "Castelo junto a um lago",
+        "Europa Central",
+        "Bled"
+    ]
+},
+{
+    id: 35,
+    name: "Fushimi Inari Taisha",
+    country: "Japão",
+    city: "Quioto",
+    lat: 34.9671,
+    lng: 135.7727,
+    image: "/images/fushimi-inari.jpg",
+    hints: [
+        "Milhares de portais vermelhos",
+        "Antiga capital japonesa",
+        "Quioto"
+    ]
 }
 ];
 
