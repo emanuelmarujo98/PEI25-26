@@ -28,9 +28,9 @@ treino de geolocalização
 - [x] Encriptação de passwords com bcrypt
 - [x] Dataset local com 35 localizações
 - [x] Sistema de pontuação baseado na distância
-- [x]Sistema de conquistas (Achievements)
-- [x]Visualização da localização correta após cada ronda
-- [x]Zoom automático do mapa
+- [x] Sistema de conquistas (Achievements)
+- [x] Visualização da localização correta após cada ronda
+- [x] Zoom automático do mapa
 - [x] Sistema de dicas com penalização de pontos
 - [x] Cronómetro por ronda
 - [x] Ranking global de jogadores
@@ -45,22 +45,30 @@ treino de geolocalização
 Antes de executar o projeto é necessário ter instalado:
 
 Node.js (versão 18 ou superior)
+
 npm (incluído com o Node.js)
+
 Git (opcional, para clonar o repositório)
 
 ## Instalação
 **1. Clonar o repositório**
+
 git clone https://github.com/emanuelmarujo98/PEI25-26.git
+
 cd PEI25-26
 
 **2. Instalar as dependências do Frontend**
+
 npm install
 
 **3. Instalar as dependências do Backend**
+
 cd backend
+
 npm install
 
 **4.Execução**
+
 Iniciar o Backend
 
 Na pasta backend:
@@ -70,6 +78,7 @@ npm start
 O servidor ficará disponível em:
 
 http://localhost:5000
+
 Iniciar o Frontend
 
 Na pasta principal do projeto:
@@ -79,6 +88,7 @@ npm start
 A aplicação ficará disponível em:
 
 http://localhost:3000
+
 Base de Dados
 
 A aplicação utiliza SQLite para persistência de dados.
@@ -90,6 +100,7 @@ Acesso
 Após iniciar o frontend e o backend:
 
 Frontend: http://localhost:3000
+
 Backend: http://localhost:5000
 
 ---
